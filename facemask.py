@@ -7,7 +7,7 @@ Created on Wed Jul 22 15:56:47 2020
 
 
 import numpy as np
-import keras
+from tensorflow import keras
 import keras.backend as k
 from keras.layers import Conv2D,MaxPooling2D,SpatialDropout2D,Flatten,Dropout,Dense
 from keras.models import Sequential,load_model
